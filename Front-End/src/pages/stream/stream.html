@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Auction stream</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h2>Welcome to Auctioneer!</h2>
+  <p>
+    This page is used by seller to stream their items for auction.
+  </p>
+  <p>
+    Take a look at the <code>src/pages/</code> directory to add or change tabs,
+    update any existing page or create new pages.
+  </p>
+  <div #stream_canvas> 
+      <canvas #canvas></canvas>
+    </div>
+  <button 
+    ion-button
+      color="primary"
+      (click)="stream">
+      Start stream
+    </button>      
+</ion-content>
