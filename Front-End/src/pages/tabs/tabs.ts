@@ -8,10 +8,12 @@ import { StreamPage } from '../stream/stream';
 })
 export class TabsPage {
 
-  tab1Root = BuyPage;
-  tab2Root = StreamPage;
+  tab1Root = StreamPage;
+  tab2Root = BuyPage;
 
-  constructor() {
+  constructor() {}
 
-  }
 }
+
+
+
